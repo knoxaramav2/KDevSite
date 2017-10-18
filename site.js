@@ -1,7 +1,7 @@
-
 //dependencies
 var jade = require('pug');
 var http = require('http');
+var path = require('path');
 
 const express = require('express');
 const app = express();
@@ -16,6 +16,7 @@ var server = app.listen(listen_port, function(){
 	});
 
 app.set('view engine', 'pug');
+app.locals.basedir = path.join(__dirname, '.');
 
 app.use(express.static('public'));
 app.use(express.static('css'));
@@ -24,7 +25,7 @@ app.use(express.static('fonts'));
 app.use(express.static('resources'));
 app.use(express.static('views'));
 app.use(express.static('partials'));
-
+  
 
 app.get('/', function(req, res){
 	res.render("index", {

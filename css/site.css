@@ -1,0 +1,41 @@
+/*Theme palettes*/
+.bg{
+	background-color: black;
+}
+
+/*Regions*/
+
+/*Container*/
+.container{
+	border: 1px solid black;
+	margin: 20px 0;
+}
+
+/*Title Bar*/
+#nav_bar{
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 20px;
+}
+
+.nav_item{
+	font-size: xx-large;
+	font-family: fantasy;
+	padding: 3px;
+	margin: 3px;
+}
+
+.nav_item a{
+	text-decoration: none;
+	color: #983d0f;
+}
+
+#ni_home{
+	
+}
+
+#ni_about{
+	
+}
+
