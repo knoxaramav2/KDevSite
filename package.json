@@ -1,0 +1,25 @@
+{
+  "name": "piserver",
+  "version": "1.0.0",
+  "description": "Little person dev server",
+  "main": "site.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knoxaramav2/KDevSite.git"
+  },
+  "author": "knoxaramav2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knoxaramav2/KDevSite/issues"
+  },
+  "homepage": "https://github.com/knoxaramav2/KDevSite#readme"
+}
