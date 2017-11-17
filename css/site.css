@@ -3,12 +3,25 @@
 	background-color: black;
 }
 
+body{
+	margin: 0;
+	background-color: #4F4F4F;
+}
+
 /*Regions*/
 
 /*Container*/
 .container{
-	border: 1px solid black;
-	margin: 20px 0;
+	/*border: 1px solid black;*/
+	margin: 20px 30px;
+}
+
+.blog_block{
+	margin: auto;
+	width: 60%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+	padding: 30px;
+	background-color: darkgray;
 }
 
 /*Title Bar*/

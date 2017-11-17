@@ -26,7 +26,6 @@ app.use(express.static('resources'));
 app.use(express.static('views'));
 app.use(express.static('partials'));
   
-
 app.get('/', function(req, res){
 	res.render("index", {
 		title: 'Pi Server',
